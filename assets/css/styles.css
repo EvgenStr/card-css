@@ -13,7 +13,6 @@
   background-color: aqua;
   color: white;
   font-family: sans-serif;
-
   padding: 15px 15px;
 }
 
@@ -45,7 +44,7 @@
   font-weight: bolder;
 }
 
-.results{
+.results {
   font-size: 15px;
 }
 
@@ -77,19 +76,19 @@
     rgba(0, 212, 255, 1) 100%
   );
 }
-.chart::after{
-  content: url('../icons/chart-line.svg');
-  position: absolute;
-  right: 45px;
+.chart::after {
+  content: url("../icons/chart-line.svg");
 }
 
-.bookmark::after{
-  content: url('../icons/bookmark-outline.svg');
-  position: absolute;
-  right: 45px;
+.bookmark::after {
+  content: url("../icons/bookmark-outline.svg");
 }
-.diamond::after{
-  content: url('../icons/diamond.svg');
+.diamond::after {
+  content: url("../icons/diamond.svg");
+}
+.chart::after,
+.bookmark::after,
+.diamond::after {
   position: absolute;
   right: 45px;
 }
