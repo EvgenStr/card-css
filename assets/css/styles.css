@@ -20,17 +20,17 @@
 .card::before {
   content: "";
   position: absolute;
-  width: 150px;
-  height: 150px;
-  background-color: rgba(255, 255, 255, 0.5);
+  width: 165px;
+  height: 165px;
+  background-color: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
 }
 .card ~ .card {
   margin-left: 15px;
 }
 .card::after {
-  top: -18px;
-  right: -55px;
+  top: -23px;
+  right: -63px;
 }
 .card::before {
   bottom: -69px;
